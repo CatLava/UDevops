@@ -13,4 +13,4 @@ echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
-docker push doofus909/udacity:demob
+docker push doofus909/udacity:demot
