@@ -3,9 +3,9 @@
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
 version:2
-jobs:
-build:
-docker:
+jobs:test
+build:test
+docker:tst
 # Use the same Docker base as the project
 - image: python:3.7.3-stretch
 
