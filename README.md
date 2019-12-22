@@ -1,10 +1,17 @@
-<include a CircleCI status badge, here>
+CircleCI was passed, Status Badge here
+[![CircleCI](https://circleci.com/gh/CatLava/UDevops.svg?style=svg)](https://circleci.com/gh/CatLava/UDevops)
+
+
 
 ## Project Overview
 
 This project was intended to learn and deploy an with Docker and Kubernetes
 1. Configuring Docker to grab and compile a python app with a makefile and Dockerfile compilation
 2. Afterwards, Upload the docker image to the account for public access.
+  This is seen with run_docker.sh where the configurations and settings were applied
+3. After Docker file is uploaded, run a kubernetes cluster and test the app again
+  This is seen in run_kubernetes.sh where the settings were applied
+4. As part of the assignment, a docker_out.txt and kubernetes_out.txt files were included to show that they were established and verified appropriately. 
 
 ### Project Tasks
 
