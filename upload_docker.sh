@@ -3,6 +3,10 @@
 
 # Assumes that an image is built via `run_docker.sh`
 
+# Step 0 : Login
+docker login
+docker tag
+
 # Step 1:
 # Create dockerpath
 dockerpath=~/.devops
