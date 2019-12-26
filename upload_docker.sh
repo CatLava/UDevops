@@ -4,8 +4,9 @@
 # Assumes that an image is built via `run_docker.sh`
 
 # Step 0 : Login
+# Ensure tagging is appropriate for the intended image
 docker login
-docker tag
+docker tag doofus909/udacity:demot doofus909/udacity:demot
 
 # Step 1:
 # Create dockerpath
